@@ -18,6 +18,10 @@ module.exports = {
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
+    client_id:'c98b9ccd842a44c8a0be00ead21d3c6d',
+    client_secret:'637fc61f8e836c4ce925dc505f5b719691e61b79',
+    backendUrl:'http://api.xhmdd.com/pdd/cb',
+    webSitUrl:'http://www.xhmdd.com',
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
     // Use Eslint Loader?
