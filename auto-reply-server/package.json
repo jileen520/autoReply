@@ -8,16 +8,22 @@
   },
   "dependencies": {
     "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0"
+    "egg-scripts": "^2.11.0",
+    "puppeteer": "^2.1.1",
+    "puppeteer-core": "^2.1.1"
   },
   "devDependencies": {
+    "@types/puppeteer": "^2.0.1",
+    "@types/puppeteer-core": "^2.0.0",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "eslint-config-egg": "^7.1.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -32,7 +38,8 @@
     "cov": "egg-bin cov",
     "lint": "eslint egg-example",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "puppeteer": "node puppeteer/AutoReply.ts --require ts-node/register"
   },
   "ci": {
     "version": "10"
