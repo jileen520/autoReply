@@ -2,6 +2,7 @@
   <div>
     <el-button @click="test">测试npm</el-button>
     <a href="https://mms.pinduoduo.com/open.html?response_type=code&client_id=c98b9ccd842a44c8a0be00ead21d3c6d&redirect_uri=http://api.xhmdd.com/pdd/cb">测试npm2</a>
+    <iframe width="1000" height="1000" src="https://mms.pinduoduo.com/chat-merchant/index.html?r=0.7654354106676209#/"></iframe>
   </div>
 </template>
 

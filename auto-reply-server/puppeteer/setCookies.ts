@@ -2,31 +2,31 @@ import { SetCookie } from 'puppeteer'
 
 const JSESSIONID: SetCookie = {
 	name: 'JSESSIONID',
-	value: '956B10587878432BC9E3CA4640BE4BEB',
+	value: 'FBC543E6D684D6DE3BEB9473A8182C26',
 	domain: 'mms.pinduoduo.com',
 	httpOnly: true
 }
 
 const PASS_ID: SetCookie = {
 	name: 'PASS_ID',
-	value: '1-cU/0MEHWRAY07LZZkHgKwpWtT6oUt2cV+cRRl4HUuV0mD5tll0ArSlQufB0RdxCzqotRAYV/pP52fF9ZkkiUbg_541916_686302',
+	value: '1-uk3nZuXjOLmOCMJ9j+an8PHV/ynFqcFT/FKeRnsoYfx+PG7FtGY4ZGajyDE/jMtHkF/dFT+6D2KiQ1kJSE799w_541916_686302',
 	domain: 'mms.pinduoduo.com',
 	httpOnly: true
 }
 
 const api_uid1: SetCookie = {
 	name: 'api_uid',
-	value: 'rBQRYF5X7rgTFDNWWpLYAg==',
+	value: 'rBUoK13AxP4xkWez8eGUAg==',
 	domain: '.pinduoduo.com',
 }
 const api_uid2: SetCookie = {
 	name: 'api_uid',
-	value: 'rBUU615X6Q6T0krx8vP9Ag==',
+	value: 'CiH9yV3AxP8E2AA5KsKeAg==',
 	domain: '.yangkeduo.com',
 }
 const nano_fp: SetCookie = {
 	name: '_nano_fp',
-	value: 'XpdJX5CxXp9YlpXoXC_oD8dB9Sq9Kz7JqH5SC1ep',
+	value: 'Xpd8XqTYX0mYXpPJXC_XTiqboFICD2YUDT8HfGB3',
 	domain: 'mms.pinduoduo.com',
 }
 
